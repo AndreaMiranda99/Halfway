@@ -1,0 +1,62 @@
+/* Split the screen in half */
+body{
+  background-color: rgb(93, 144, 227);
+}
+
+.pinput{
+  color: rgb(54, 62, 77);
+  position: relative;
+  text-align:center;
+  font-size: 18pt;
+  top:153px;
+  font-family: courier;
+}
+
+.viewResults {
+  position: absolute;
+  top:62%;
+  left:43.75%;
+  border: none;
+  background-color: rgb(54, 62, 77);
+  color: rgb(210, 213, 217);;
+  padding: 8px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  font-family: courier;
+}
+
+
+.submit {
+  position: absolute;
+  top:54%;
+  left:46.25%;
+  border: none;
+  background-color: rgb(54, 62, 77);
+  color: rgb(210, 213, 217);;
+  padding: 8px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  font-family: courier;
+}
+
+.Description {
+  position: relative;
+  color: rgb(54, 62, 77);
+  font-family: courier;
+  font-size: 12pt;
+  top: 159px;
+  text-align:center;
+
+}
+
+p{
+  position: relative;
+  color: rgb(54, 62, 77);
+  font-family: courier;
+  font-size: 40pt;
+  text-align:center;
+  top: 200px;
+
+}

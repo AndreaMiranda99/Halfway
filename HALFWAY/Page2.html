@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+</html>
+<head>
+<link rel="stylesheet" href = "page2styles.css"/>
+<script src = "Page2.js"> </script>
+<head>
+
+
+<body>
+  <p id = "Number">Genre Preference #1</p>
+  <p class = "Description">Submit as many genre preferences as desired. Press view results for movie suggestions.</p>
+      <form>
+            <p class = "pinput">
+              <select id = "Genre">
+                   <option value = "1">Action</option>
+                   <option value = "2">Adventure</option>
+                   <option value = "3">Animation</option>
+                   <option value = "4">Comedy</option>
+                   <option value = "5">Crime</option>
+                   <option value = "6">Documentary</option>
+                   <option value = "7">Drama</option>
+                   <option value = "8">Family</option>
+                   <option value = "9">History</option>
+                   <option value = "10">Horror</option>
+                   <option value = "11">Mystery</option>
+                   <option value = "12">Romance</option>
+                   <option value = "13">Science Fiction</option>
+                   <option value = "14">Thriller</option>
+                   <option value = "15">War</option>
+                 </select>
+        </p>
+      </form>
+      <button class="viewResults" onClick="window.location.href = 'page3.html';">View Results</button>
+      <button class="submit" onclick="GetGenres()">Submit</button>
+</body>
+</html>
